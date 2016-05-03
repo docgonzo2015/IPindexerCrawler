@@ -5,8 +5,9 @@ crawler for [ipindex](http://ipindex.dihe.de/index.php)
 ## How it works?
 1. Download the tool
 ```bash
-wget -o ipindex.zip https://github.com/lucidtrip/IPindexerCrawler/archive/master.zip
-python ipindex.zip --help
+wget -O ipindex.tar.gz https://github.com/lucidtrip/IPindexerCrawler/archive/master.tar.gz
+tar xfvz ipindex.tar.gz
+python IPindexerCrawler-master --help
 ```
 2. You need a file in each line are an URL.
 exampel:
