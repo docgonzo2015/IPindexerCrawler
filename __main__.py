@@ -36,14 +36,6 @@ def file_put_contents(filename, string, mode='a'):
     myFile.write(string)
     myFile.close()
 
-# kill duplikates from a list
-def dup_kill(mylist):
-    newlist = []
-    for i in mylist:
-        if i not in newlist:
-            newlist.append(i)
-    return newlist
-
 def get_page(url, data=None, timeout=5, **kwargs):
     try:
         tmp = urllib2.urlopen(url, data, timeout)
